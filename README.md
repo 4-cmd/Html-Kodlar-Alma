@@ -1,6 +1,16 @@
 # Html-Kodlar-Alma
 Bir HTML Sayfasındaki kodları almak
- 
+
+Burada bir websitedeki url'in nasıl içindeki kodlarını nasıl alınması gerektiğini gösteren bir belge hazirladim 
+Ben Excel dosyasi okuduğum için CsvHelper gerek duydum ama Csvdosyasi olmadan da bir urlden kodları alabilirsiniz 
+
+Gerekli Bağımlılıklar 
+dotnet add package Selenium.WebDriver
+dotnet add package Selenium.WebDriver.GeckoDriver
+dotnet add package CsvHelper
+
+
+
   public IActionResult KodAlmak()
  {
      // wwwroot klasör yolunu al
